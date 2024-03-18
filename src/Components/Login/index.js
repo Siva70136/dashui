@@ -18,7 +18,7 @@ const Login = () => {
             console.log(JSON.stringify(formData))
             const res = await fetch("https://jwt-genarater.netlify.app/login", {
                 method: 'POST',
-                
+                 mode: 'no-cors',
                 headers: {
                     'Content-Type': 'application/json',
                 },
