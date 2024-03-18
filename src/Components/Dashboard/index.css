@@ -1,0 +1,222 @@
+.navbar {
+    margin-left: 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-head {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.search-container{
+    border: 0px solid #858585;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 10px;
+    padding: 0px 3px;
+    margin-right: 8px;
+}
+.search{
+    border: none;
+    outline: none;
+}
+.navbar-second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bell{
+
+    margin-right: 8px;
+}
+
+
+
+
+
+.cards-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    margin-left: 20px;
+}
+
+
+.inner-card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 130px;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 0px;
+    border: 1px solid #EAEAEA;
+    background-color: #DDEFE0;
+    margin-left: 8px;
+
+}
+
+.card2 {
+    background-color: #F4ECDD;
+}
+
+.card3 {
+    background-color: #EFDADA;
+}
+
+.card4 {
+    background-color: #DEE0EF;
+
+}
+
+.image {
+    align-self: flex-end;
+}
+
+
+.cap {
+    font-family: "Lato";
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+.cash {
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+
+}
+
+.linechart {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+}
+
+.piechart {
+    margin-top: 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px 0px;
+    border: 1px solid #EAEAEA;
+    margin-left: 10px;
+    height: 250px;
+    width: 400px;
+    padding: 12px;
+
+}
+
+.pie-top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pie-head {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.date {
+    display: flex;
+    align-items: center;
+}
+
+.date-cap {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.down {
+    color: #858585;
+
+}
+
+.last-secton {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 28px;
+    margin-top: 28px;
+}
+
+.schedule-head {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.schedule-cap {
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #999999;
+
+}
+
+.box2 {
+    display: flex;
+
+}
+
+.vl {
+    border-left: 4px solid #9BDD7C;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.vl1 {
+    border-left: 4px solid #6972C3;
+    height: 70px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        width: auto;
+    }
+    .last-secton{
+      flex-direction: column;
+    }
+    .linechart{
+        width: auto;
+    }
+    .piechart{
+        width: auto;
+    }
+    .cards-section {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+        box-sizing: border-box;
+    }
+  
+}

@@ -1,0 +1,59 @@
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 950px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.menu-section {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    background-color: black;
+
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-left: 28px;
+}
+
+.option-name {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin-left: 5px;
+
+
+}
+.last{
+    text-align: left;
+    margin-left: 28px;
+}
+
+.head2 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+
+
+
+.icon {
+    color: white;
+    width: 18px;
+    height: 18px;
+}
+
+@media screen and (max-width: 768px) {
+    .side-menu {
+        display: none;
+    }
+}

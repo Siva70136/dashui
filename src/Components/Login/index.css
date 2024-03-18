@@ -1,0 +1,147 @@
+.app-container {
+    display: flex;
+
+}
+
+.board-section {
+    width: 588px;
+    height: 100vh;
+    background-color: #000000;
+
+}
+
+.board-layout {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.board {
+    font-family: Montserrat;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.login-section {
+    margin: 0 auto;
+    align-self: center;
+}
+
+.head {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.desc {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.img {
+    width: 180px;
+    height: 30px;
+    top: 354px;
+    left: 832px;
+
+}
+
+.card-section {
+    width: 385px;
+    height: 317px;
+    border-radius: 20px;
+    box-shadow:0px 0px 2px 0px;
+    border: 1px solid #EAEAEA;
+
+}
+
+.label {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 28px;
+
+}
+
+.input {
+    width: 325px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    background-color: #EAEAEA;
+    border: none;
+
+
+}
+
+.fpwd {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #346BD4;
+    margin-left: 28px;
+}
+
+.button {
+    width: 325px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+
+}
+
+.alter {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.reg {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #346BD4;
+}
+
+@media screen and (max-width: 768px) {
+    .board-section {
+        display: none;
+    }
+    .card-section {
+        width: auto;
+        height: auto;
+        padding-bottom: 10px;
+    
+    }
+}
