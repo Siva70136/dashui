@@ -16,7 +16,7 @@ const Login = () => {
                 password: Pwd
             }
             console.log(JSON.stringify(formData))
-            const res = await fetch("https://jwt-genarater.netlify.app/login", {
+            const res = await fetch("https://jwt-auth-fnwx.onrender.com/login", {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
